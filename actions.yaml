@@ -1,0 +1,17 @@
+replace_sedum_roof:
+  name: "Replace sedum roof"
+  qty: 87.5
+  unit: "m^2"
+  cost: 25000
+  frq: 12
+  first: 2019
+  building: "recycling station"
+  
+oil_walls:
+  name: "Oil the wooden walls"
+  qty: 117
+  unit: "m^2"
+  cost: 41250
+  frq: 10
+  first: 2019
+  building: "recycling station"

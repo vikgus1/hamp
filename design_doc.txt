@@ -1,0 +1,20 @@
+Design doc:
+
+A tool useful for small scale business, associations and home owners for translating long term planned maintenance into 
+yearly saving targets.
+
+**Input** 
+Single .yaml file with all actions. An action should have the following quantities:
+- Descriptive name (must be clear what you should order from builders etc).
+- Quantity.
+- Unit of qty.
+- Cost (currency not important since you're likely only using the local currency).
+- Frequency (years).
+- Year of first action.
+- Facility (garage, hallways, etc.)
+
+**Output**
+Multiple options. Including but not limited to:
+- This year's saving target.
+- Graph of maintenance fund over time, as money is added and actions consume funds.
+- Curated list of actions, i.e. actions for a given year or for a given facility.
